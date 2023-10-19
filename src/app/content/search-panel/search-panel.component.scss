@@ -1,0 +1,30 @@
+.search-input {
+  text-align: center;
+  margin: auto;
+  label {
+    font-size: 1.8rem;
+    // color: white;
+    font-weight: 500;
+  }
+  input {
+    width: 100%;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+
+  }
+  input:focus {
+    border-radius: 25px;
+    font-size: 1.2rem;
+    height: 1.4rem;
+    width: 520px;
+  }
+  .label-container {
+    padding-bottom: 20px;
+  }
+}
+
+.sarch-panel {
+  width: 100%;
+}
