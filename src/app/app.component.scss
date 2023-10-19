@@ -1,0 +1,15 @@
+:host {
+  --content-padding: 150px 40px;
+}
+header {
+  display: block;
+  height: 60px;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 25px var(--shadow-color);
+}
+.content {
+  padding: var(--content-padding);
+  max-width: 1080px;
+  margin: auto;
+  text-align: center;
+}
